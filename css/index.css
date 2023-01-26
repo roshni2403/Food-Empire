@@ -1,0 +1,87 @@
+body{
+	margin: 15px;
+	padding: 15px;
+  background-image: url(../images/food.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+header{
+	text-transform: capitalize;
+	color: #FFFFFF;
+	text-align: center; 
+  margin-left: 500px;
+
+}
+h1{
+
+	text-transform: uppercase;
+  text-align: center;
+  
+}
+a{
+	color: #57576f ;
+   font-variant: capitalize;
+   background-color: #f8f8f8;
+   text-decoration: none;
+   margin-left: 50px;
+   padding: 10px 8px;
+  font-weight: bolder;
+  width: 7%;
+  font-size: 20px;
+}
+nav a{
+	width: 7%;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 8px;
+  margin: 10px 8px;
+  margin-right: 20px;
+  margin-left: 5px;
+  font-weight: bolder;
+  font-size: 15px;
+  }
+  a:hover{
+  background: #B3B3B3;
+  color: #3A3A74;
+}
+a:focus{
+  background: #B3B3B3;
+  color: #3A3A74;
+}
+a:active{
+  border: 3px solid #000000;
+}
+.active
+   {
+    border: 2px 
+    background-color: #FFFFFF;
+    color: #bbbbbb;
+   }
+.right{
+	   width:70%;
+     height: 100%;
+       float: right;
+       margin: auto;
+      display: inline-block;
+      
+      
+}
+main{
+  display: inline-block;
+  text-align: center;
+}
+h2{
+	text-transform: capitalize;
+	color: #FFFFFF;
+  font-size: 60px; 
+}
+section{
+	 margin-left: 2%;
+}
+p{
+   color: #ffffff;
+   font-size: 15px;
+
+}

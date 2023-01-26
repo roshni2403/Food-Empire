@@ -1,0 +1,59 @@
+body{
+  margin: 15px;
+  padding: 15px;
+  background-image: url(../images/login.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      text-align: center
+}
+header{
+  text-align: left;
+}
+a{
+    color: #57576f ;
+   font-variant: capitalize;
+   background-color: #f8f8f8;
+   text-decoration: none;
+   margin-left: 50px;
+   padding: 10px 8px;
+  font-weight: bolder;
+  width: 7 %;
+  font-size: 20px;
+}
+nav a{
+    width: 7 %;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 8px;
+  margin: 10px 8px;
+  margin-right: 20px;
+  margin-left: 5px;
+  font-weight: bolder;
+  font-size: 15px;
+  }
+  a:hover{
+  background: #B3B3B3;
+  color: #3A3A74;
+}
+a:focus{
+  background: #B3B3B3;
+  color: #3A3A74;
+}
+input[type=submit] {
+  background-color: #050B89;
+  color: white;
+  padding: 14px 18px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ input[type=submit]:hover {
+  background-color: #3241A2;
+}
+div{
+  font-weight: bolder;
+  margin-top: 35px;
+  font-size: 20px;
+}

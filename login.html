@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Food</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+        <h1></h1>
+        <nav>
+            <a href="index.html" >Home</a>
+            <a href="menu.html">menu</a>
+            <a href="aboutus.html" >About us</a> 
+            <a href="contactus.html">contact</a>
+            <a href="login.html"class = "active">Login</a>
+            <a href="index.html">Back</a>
+        </nav>
+    </header>
+    <style>
+        body{
+            text-align: center;
+            margin: 15px;
+            padding: 15px;
+        }
+        header{
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: center; 
+    margin-left: 500px;
+
+}
+ a{
+    color: #57576f ;
+   font-variant: capitalize;
+   background-color: #f8f8f8;
+   text-decoration: none;
+   margin-left: 50px;
+   padding: 10px 8px;
+  font-weight: bolder;
+  width: 7 %;
+  font-size: 20px;
+}
+nav a{
+    width: 7 %;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 8px;
+  margin: 10px 8px;
+  margin-right: 20px;
+  margin-left: 5px;
+  font-weight: bolder;
+  font-size: 15px;
+  }
+  a:hover{
+  background: #B3B3B3;
+  color: #3A3A74;
+}
+a:focus{
+  background: #B3B3B3;
+  color: #3A3A74;
+}
+a:active{
+  border: 3px solid #000000;
+}
+.active{
+  border: 2px 
+  background-color: #FFFFFF;
+  color: #bbbbbb;
+}
+input[type=email]{
+width: 50%;
+  padding: 8px 12px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password]{
+width: 50%;
+  padding: 8px 12px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=text] {
+  width: 50%;
+  padding: 8px 12px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=tel]{
+  padding: 8px 12px; 
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;  
+}
+input[type=submit] {
+    width: 50%;
+  background-color: #050B89;
+  color: white;
+  padding: 14px 18px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset] {
+  background-color: #050B89;
+  color: white;
+  padding: 14px 18px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+}
+    input[type=reset]:hover{
+     background-color: #3241A2;
+    }
+    input[type=submit]:hover {
+  background-color: #3241A2;
+}
+
+      div{
+        margin-top: 30px;
+        display: inline-block ;
+        border-radius: 3px; 
+        font-weight: bolder;
+        color: #000000;
+        font-size: 20px;
+        background-color: #FFFFFF;
+      }
+    </style>
+
+<body>
+    <form action="" method="get">
+        
+        <div>
+            <label for="uName">First Name: </label>
+            <input type="text" id="fName" name="fName" placeholder="Your name">
+        </div>
+        <div>
+            <label for="uName">Last Name: </label>
+            <input type="text" id="lName" name="lName" placeholder="Family name">
+        </div>
+        </br>
+        <div>
+            <label for="uName">Set Password:</label>
+            <input type="password" name="uPwd" id="" placeholder="password">
+        </div>
+        </br>
+        <div>
+            <label for="uName">Confirm Password:</label>
+            <input type="password" name="uPwd" id="" placeholder="Confirm password">
+        </div>
+        </br>
+        
+        <div>
+            <label for="email">EmailID: </label>
+            <input type="email" name="uEmail" placeholder="email">
+        </div>
+        </br>
+        <div>
+            <label for="tel">Contact No: </label>
+            <input type="tel" name="" id="" placeholder="Mobile number">
+        </div>
+        </br>
+        <div>
+            <label for="tel">Select Your Preference: </label>
+            <select name="Preference" id="" >                
+                <option value="in">Veg.</option>
+                <option value="us">Non-Veg.</option>
+                <option value="can">Vegan</option>
+            </select>
+        </div>
+        </br>
+        <div>
+            <input type="checkbox" name="agreement" id=""> I agree to terms and conditions
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Join Now">
+            <input type="reset" value="Clear Form">
+            
+        </div>
+    </form>
+</body>
+</html>
